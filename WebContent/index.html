@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bancomat</title>
+</head>
+<body>
+<h1>Bancomat Virtuale</h1>
+<form method= "Post" action="http://localhost:8080/banca/bancomatservlet">
+Numero conto:<input type ="number" name= "numero" ><br>
+<select size="1" name="operazione">
+	<option value="1" >Saldo</option>
+	<option value="2">Preleva</option>
+	<option value="3">Versa</option>
+	
+</select><br>
+Quantità in Euro:<input type ="number" name= "quantita"><br>
+
+<input type="submit" value="invia">
+</body>
+</html>
